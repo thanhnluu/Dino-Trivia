@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#aaadb1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cs_477.cs_477_course_project.Help"
+    android:orientation="vertical"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/help_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="14dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Help"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/helpDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="@string/helpDescription"
+            android:fontFamily="monospace"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_below="@+id/help_title"
+            android:layout_alignParentStart="true" />
+
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_gravity="left|top"
+            android:layout_margin="10dp"
+            android:onClick="back"
+            android:textColor="#FFFFFF"
+            fbutton:buttonColor="#FF29B916"
+            fbutton:shadowEnabled="true"
+            android:layout_marginTop="43dp"
+            android:layout_below="@+id/helpDetail"
+            android:layout_alignParentStart="true"
+            android:text="Back"/>
+    </RelativeLayout>
+
+</LinearLayout>
+

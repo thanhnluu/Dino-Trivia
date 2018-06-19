@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#080808"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cs_477.cs_477_course_project.Rewards"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Some cool dinosaur facts"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:fontFamily="monospace"/>
+
+    <ListView
+        android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="0.5dp"
+        android:divider="#FFFFFF"/>
+</LinearLayout>

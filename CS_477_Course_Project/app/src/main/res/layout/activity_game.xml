@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f3f4f7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cs_477.cs_477_course_project.GameActivity"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:textColor="#FF030303"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.5"
+        android:background="#7e0a10">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="answerChosen"
+            android:textColor="#0b0b0b"
+            fbutton:buttonColor="#ec7129"
+            fbutton:cornerRadius="10dp"
+            fbutton:shadowColor="#aaadb1"
+             />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+        <info.hoang8f.widget.FButton
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="answerChosen"
+            android:textColor="#0b0b0b"
+            fbutton:buttonColor="#ec7129"
+            fbutton:cornerRadius="10dp"
+            fbutton:shadowColor="#aaadb1" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+        <info.hoang8f.widget.FButton
+            android:id="@+id/answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="answerChosen"
+            android:textColor="#0b0b0b"
+            fbutton:buttonColor="#ec7129"
+            fbutton:cornerRadius="10dp"
+            fbutton:shadowColor="#aaadb1"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+        <info.hoang8f.widget.FButton
+            android:id="@+id/answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="answerChosen"
+            android:textColor="#0b0b0b"
+            fbutton:buttonColor="#ec7129"
+            fbutton:cornerRadius="10dp"
+            fbutton:shadowColor="#aaadb1"/>
+    </LinearLayout>
+</LinearLayout>

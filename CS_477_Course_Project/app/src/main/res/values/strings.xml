@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Dino Trivia</string>
+    <string name="connectionError">Unable to connect to server</string>
+    <string name="duplicateUserError">User with provided username already exists. Try again.</string>
+    <string name="createUserSuccess">User successfully created</string>
+    <string name="loginSuccess">Login success</string>
+    <string name="loginError">Login failed</string>
+    <string name="helpDescription">
+        Welcome to Dino Trivia! In this app, you get to play a fun game by answering trivia questions.\n\nYou will
+        not only enjoy yourself, but learn new facts with the trivia questions as well! By answering questions
+        correctly, you also earn points towards some awesome dinosaur facts!\n\nJust tap \'Start Game\', choose
+        from the many question categories, choose a difficulty, and tap go to start your game.\n\nNow what are
+        you waiting for, GO PLAY!
+    </string>
+
+    <string-array name="categories">
+        <item>General Knowledge</item>
+        <item>Books</item>
+        <item>Film</item>
+        <item>Music</item>
+        <item>Musicals and Theatres</item>
+        <item>TV</item>
+        <item>Video Games</item>
+        <item>Board games</item>
+        <item>Science and Nature</item>
+        <item>Computers</item>
+        <item>Math</item>
+        <item>Mythology</item>
+        <item>Sports</item>
+        <item>Geography</item>
+        <item>History</item>
+        <item>Politics</item>
+        <item>Art</item>
+        <item>Celebrities</item>
+        <item>Animals</item>
+        <item>Vehicles</item>
+        <item>Comics</item>
+        <item>Gadgets</item>
+        <item>Japanese Anime and Manga</item>
+        <item>Cartoon and Animations</item>
+    </string-array>
+
+    <string-array name="difficulty">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="dinosaurs">
+        <item>Parasaurolophus</item>
+        <item>Brachiosaurus</item>
+        <item>Sauropoda</item>
+        <item>Ankylosaurus</item>
+        <item>Apatosaurus</item>
+        <item>Allosaurus</item>
+        <item>Velociraptor</item>
+        <item>Stegosaurus</item>
+        <item>Triceratops</item>
+        <item>Tyrannosaurus rex</item>
+    </string-array>
+
+    <string-array name="Parasaurolophus">
+        <item>Parasaurolophus means \'near crested lizard\'.</item>
+        <item>Parasaurolophus lived in what is now North America. Maybe one lived near you?</item>
+        <item>Don\'t worry. Parasaurolophus was a herbivore.</item>
+        <item>It weighed about 2.5 tons!</item>
+        <item>Parasaurolophus was on average 31ft long and almost 6ft tall.</item>
+        <item>Parasaurolophus was first discoverd in 1921 by Charles H. Sternberg.</item>
+        <item>Because of its diet, its teeth were constantly being replaced.</item>
+        <item>Parasaurolophus had a cranial crest used for communication and thermoregulation.</item>
+    </string-array>
+    <string-array name="Brachiosaurus">
+        <item>Brachiosaurus had a long neck, small head, and large body.</item>
+        <item>Brachiosaurus was first discovered in 1885.</item>
+        <item>Brachiosaurus was about 85ft long </item>
+        <item>Brachiosaurus was a large dinosaur! But it was a herbivore.</item>
+        <item>Brachiosaurus could eat up to 880lbs of food a day!</item>
+        <item>Brachiosaurus weighed between 30 and 45 tons.</item>
+        <item>It lived in what is now North America.</item>
+        <item>Brachiosaurus walked on all fours.</item>
+    </string-array>
+    <string-array name="Sauropoda">
+        <item>Sauropoda means \'lizard-footed\'.</item>
+        <item>Sauropoda had long necks, long tails, small heads, and big legs.</item>
+        <item>They were some of the largest land animals of their time.</item>
+        <item>Sauropoda was named by O.C. Marsh.</item>
+        <item>They had air sacs in their bones, reducing the weight of their long necks.</item>
+        <item>They formed herds and protected each other from predators.</item>
+        <item>Sauropoda replaced a tooth every 14 days.</item>
+        <item>Sauropoda had a diet consisting of plants and leaves.</item>
+    </string-array>
+    <string-array name="Ankylosaurus">
+        <item>Ankylosaurus means \'fused lizard\'.</item>
+        <item>Ankylosaurus had a length of about 30ft and weighed about 6.5 tons.</item>
+        <item>They had a ball at the end of their tails for self-defense.</item>
+        <item>It also had body armor to protect itself.</item>
+        <item>Ankylosaurus had a diet of plants.</item>
+        <item>Ankylosaurus outlived many dinosaurs.</item>
+        <item>The adults preferred solitary lives.</item>
+        <item>They were slow dinosaurs but could move quickly if needed.</item>
+    </string-array>
+    <string-array name="Apatosaurus">
+        <item>Apatosaurus traveled up to 25 miles each day in search for food.</item>
+        <item>Apatosaurus ate 880lbs of food a day.</item>
+        <item>Apatosaurus swallowed stones to help digest the plants it ate.</item>
+        <item>It used its tail for self-defense.</item>
+        <item>Its name means \'deceptive lizard\'.</item>
+        <item>It lived for up to 31 years!</item>
+        <item>Apatosaurus weighed up to 40 tons!</item>
+        <item>Apatosaurus could run on its hind legs.</item>
+    </string-array>
+    <string-array name="Allosaurus">
+        <item>Allosaurus hunted Apatosaurus.</item>
+        <item>Allosaurus was a carnivore and had no natural predators.</item>
+        <item>Allosaurus weighed about 4 tons.</item>
+        <item>Allosaurus means \'different lizard\'.</item>
+        <item>They were about 28ft long.</item>
+        <item>They hunted in packs.</item>
+        <item>Allosaurus was first discoverd in 1869.</item>
+        <item>Allosaurus is a common dinosaur in museums.</item>
+    </string-array>
+    <string-array name="Velociraptor">
+        <item>Velociraptor was about as big as a large turkey.</item>
+        <item>Velociraptor had feathers.</item>
+        <item>Velociraptor was capable of climbing trees.</item>
+        <item>Velociraptor liked to eat their catch live.</item>
+        <item>Despite having feathers, they could not fly.</item>
+        <item>It was a very fast runner.</item>
+        <item>Velociraptor often stole food from other dinosaurs.</item>
+        <item>It was not a very smart dinosaur.</item>
+    </string-array>
+    <string-array name="Stegosaurus">
+        <item>Stegosaurus is the state dinosaur of Colorado.</item>
+        <item>Stegosaurus had spikes on its tail for self defense.</item>
+        <item>Stegosaurus had plates on its skin for self defense as well.</item>
+        <item>Stegosaurus could only move at a speed of up to 5mph.</item>
+        <item>Their brains were very small.</item>
+        <item>They lived in what is now North America and Europe.</item>
+        <item>Stegosaurus means \'roof lizard\'.</item>
+        <item>Stegosaurus was about 30ft long, 14ft tall, and weighed 5.5 tons.</item>
+    </string-array>
+    <string-array name="Triceratops">
+        <item>Triceratops weighed about the same as a truck.</item>
+        <item>Triceratops had horns for self defense.</item>
+        <item>Triceratops means \'three-horned face\'.</item>
+        <item>Triceratops were about 30ft long.</item>
+        <item>They had between 400 and 800 teeth.</item>
+        <item>They were herbivores and ate a lot!</item>
+        <item>Triceratops is one of the most widely recognized dinosaurs.</item>
+        <item>They lived 65 million years ago!</item>
+    </string-array>
+    <string-array name="Tyrannosaurus_rex">
+        <item>Tyrannosaurus rex means \'tyrant lizard\'.</item>
+        <item>They were about 42ft long and weighed 7 tons!</item>
+        <item>Tyrannosaurus rex walked on two legs and used its tail to balance itself.</item>
+        <item>Tyrannosaurus rex had some of the largest teeth amongst all the carnivorous dinosaurs.</item>
+        <item>Despite its small arms, their arms were powerful and had sharp claws.</item>
+        <item>Tyrannosaurus rex is the most well known dinosaur.</item>
+        <item>They could run up to 20mph after prey.</item>
+        <item>They were one of the biggest, meanest meat eaters.</item>
+    </string-array>
+</resources>

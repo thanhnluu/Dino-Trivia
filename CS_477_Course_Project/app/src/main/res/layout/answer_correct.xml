@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88000000"
+    android:gravity="center">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correct!"
+            android:textColor="#008000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></View>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/nextQuestion"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Next Question"
+        android:textColor="#ffffff"
+        fbutton:buttonColor="#9153d2"
+        android:onClick="nextQuestion"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></View>
+</LinearLayout>

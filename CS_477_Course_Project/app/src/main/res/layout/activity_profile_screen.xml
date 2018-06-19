@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#aaadb1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cs_477.cs_477_course_project.ProfileScreen"
+    android:orientation="vertical"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="14dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/newGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="serif-monospace"
+            android:onClick="new_game"
+            android:text="Start Game"
+            android:textColor="#f9f9f9"
+            android:textStyle="bold"
+            fbutton:buttonColor="@color/colorAccent"
+            fbutton:shadowEnabled="true"
+            android:layout_marginTop="98dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentEnd="true" />
+
+
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/userProfile"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            fbutton:buttonColor="#FF29B916"
+            fbutton:shadowEnabled="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:onClick="user_profile"
+            android:text="User Profile"
+            android:textColor="#FFFFFF"/>
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/help"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            fbutton:buttonColor="#FF29B916"
+            fbutton:shadowEnabled="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:onClick="help"
+            android:text="Help"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/userProfile"
+            android:layout_alignStart="@+id/userProfile" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/rewards"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            fbutton:buttonColor="#FF29B916"
+            fbutton:shadowEnabled="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:onClick="rewards"
+            android:text="Rewards"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/help"
+            android:layout_alignStart="@+id/userProfile" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/help"
+            android:layout_marginStart="12dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="200dp"
+            android:maxWidth="200dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/dino"
+            android:onClick="roar"/>
+
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/userProfile"
+            android:layout_alignBottom="@+id/userProfile"
+            android:layout_alignStart="@+id/imageView"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Points: "
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+

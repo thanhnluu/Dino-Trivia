@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#aaadb1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cs_477.cs_477_course_project.UserInfo"
+    android:orientation="vertical"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="14dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="User Information"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full name:" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilFullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#FFFFFF">
+
+            <EditText
+                android:id="@+id/fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz "
+                android:fontFamily="monospace"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password:" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#FFFFFF">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Points:" />
+
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="monospace"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username:" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="monospace"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            />
+
+        <info.hoang8f.widget.FButton
+        android:id="@+id/Update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="left|top"
+        android:layout_margin="10dp"
+        android:onClick="update"
+        android:text="Update"
+        android:textColor="#fefeff"
+        fbutton:buttonColor="#FF29B916"
+        fbutton:shadowEnabled="true" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/Logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="left|top"
+            android:layout_margin="10dp"
+            android:onClick="logout"
+            android:text="LOGOUT"
+            android:textColor="#fbfcfd"
+            fbutton:buttonColor="#f20313"
+            fbutton:shadowEnabled="true" />
+
+    </LinearLayout>
+
+</LinearLayout>
